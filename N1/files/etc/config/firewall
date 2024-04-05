@@ -14,9 +14,9 @@ config zone
 	option forward 'ACCEPT'
 	option masq '1'
 
-config zone 'docker'
+config zone
+	option name 'docker'
 	option input 'ACCEPT'
 	option output 'ACCEPT'
 	option forward 'ACCEPT'
-	option name 'docker'
 	list network 'docker'
