@@ -48,6 +48,7 @@ CPUSTAT_SCRIPT="${PWD}/files/cpustat"
 CPUSTAT_SCRIPT_PY="${PWD}/files/cpustat.py"
 INDEX_PATCH_HOME="${PWD}/files/index.html.patches"
 GETCPU_SCRIPT="${PWD}/files/getcpu"
+TTYD="${PWD}/files/ttyd"
 FLIPPY="${PWD}/files/scripts_deprecated/flippy_cn"
 BANNER="${PWD}/files/banner"
 
@@ -172,10 +173,10 @@ adjust_openssl_config
 adjust_getty_config
 adjust_samba_config
 adjust_openssh_config
+adjust_openclash_config
 use_xrayplug_replace_v2rayplug
 create_fstab_config
 adjust_mosdns_config
-patch_admin_status_index_html
 adjust_kernel_env
 copy_uboot_to_fs
 write_release_info
