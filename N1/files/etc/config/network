@@ -14,11 +14,11 @@ config interface 'lan'
 	option netmask '255.255.255.0'
 	option delegate '0'
 
+config device
+	option name 'docker0'
+	option type 'bridge'
+
 config interface 'docker'
 	option device 'docker0'
 	option proto 'none'
 	option auto '0'
-
-config device
-	option type 'bridge'
-	option name 'docker0'
