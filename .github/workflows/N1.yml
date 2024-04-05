@@ -101,7 +101,7 @@ jobs:
         SCRIPT_DIY_PATH: N1/mk_s905d_n1.sh
         WHOAMI: esme518
         OPENWRT_VER: v23.05.2
-        DISTRIB_DESCRIPTION: immortalwrt
+        DISTRIB_DESCRIPTION: ImmortalWrt
         SW_FLOWOFFLOAD: 0
         SFE_FLOW: 0
         ENABLE_WIFI_K510: 0
