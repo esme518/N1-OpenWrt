@@ -16,7 +16,7 @@ config zone
 
 config zone
 	option name 'docker'
+	list network 'docker'
 	option input 'ACCEPT'
 	option output 'ACCEPT'
 	option forward 'ACCEPT'
-	list network 'docker'
