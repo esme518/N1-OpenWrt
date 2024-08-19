@@ -58,6 +58,7 @@ jobs:
     - name: Update & Install feeds
       working-directory: ./openwrt
       run: |
+        wget -O feeds.conf.default https://raw.githubusercontent.com/immortalwrt/immortalwrt/openwrt-23.05/feeds.conf.default
         ./scripts/feeds update -a
         ./scripts/feeds install -a
 
