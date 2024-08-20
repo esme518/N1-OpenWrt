@@ -5,6 +5,7 @@
 luci-app-dockerman：Docker 管理<br>
 [luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)：DNS 转发器<br>
 [luci-app-openclash](https://github.com/vernesong/OpenClash)：科学上网<br>
+[luci-app-passwall](https://github.com/xiaorouji/openwrt-passwall)：科学上网<br>
 luci-app-samba4：存储共享
 ***
 # 致谢
