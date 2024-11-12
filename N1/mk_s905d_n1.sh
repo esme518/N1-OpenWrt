@@ -48,6 +48,7 @@ CPUSTAT_SCRIPT="${PWD}/files/cpustat"
 CPUSTAT_SCRIPT_PY="${PWD}/files/cpustat.py"
 INDEX_PATCH_HOME="${PWD}/files/index.html.patches"
 GETCPU_SCRIPT="${PWD}/files/getcpu"
+TTYD="${PWD}/files/ttyd"
 FLIPPY="${PWD}/files/scripts_deprecated/flippy_cn"
 BANNER="${PWD}/files/banner"
 
